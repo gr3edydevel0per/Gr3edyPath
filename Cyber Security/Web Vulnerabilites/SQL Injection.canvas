@@ -1,0 +1,40 @@
+{
+	"nodes":[
+		{"id":"dcc8ad16f59fa67b","type":"text","text":"All the tables present in the database","x":100,"y":-180,"width":240,"height":57},
+		{"id":"3b8f9b67c92b132a","type":"text","text":"All the tables present in the database","x":100,"y":-33,"width":240,"height":57},
+		{"id":"86cb4205d13b3f3d","type":"text","text":"hostName , userName , version","x":-580,"y":-61,"width":220,"height":57},
+		{"id":"4fd6051744f2995f","type":"text","text":"Database Information","x":-580,"y":-180,"width":220,"height":57},
+		{"id":"8b7b4cee7f7bbef2","type":"text","text":"Current Database","x":-260,"y":-180,"width":232,"height":57},
+		{"id":"ae176e5ad7812d62","type":"text","text":"<H1 style=\"color:#12B8FF\">Phases</h1>","x":-240,"y":-61,"width":181,"height":57},
+		{"id":"87258b1f40d2de91","type":"text","text":"Accepted Datatypes for given columns","x":238,"y":140,"width":250,"height":60},
+		{"id":"e5a4f7bcc145b208","type":"text","text":"all the columns present in the required table","x":-59,"y":143,"width":253,"height":57},
+		{"id":"4b3f4803a9fcc3df","type":"text","text":"Construction Payload","x":68,"y":360,"width":302,"height":62},
+		{"id":"ae0fec01905e8433","type":"text","text":"Displaying / Altering","x":-365,"y":362,"width":250,"height":60},
+		{"id":"2f4bba926017d98c","type":"text","text":"[SQLI Cheat Sheet](https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/)","x":-266,"y":60,"width":233,"height":50},
+		{"id":"8f05662c1637cf08","type":"text","text":"WebApp Vulnerable to \nSQL Injection or Not","x":-987,"y":-180,"width":250,"height":57},
+		{"id":"1328eb18c96829ae","x":-894,"y":24,"width":65,"height":67,"type":"text","text":"❌  "},
+		{"id":"e3f14e6bb8705864","x":-998,"y":150,"width":272,"height":60,"type":"text","text":"How | Prevention of SQL I"},
+		{"id":"ec7dc151aa83a38e","x":-986,"y":280,"width":250,"height":60,"type":"text","text":"Allow-Input Validation"},
+		{"id":"bb6acfbd9d5e956b","x":-1260,"y":280,"width":250,"height":60,"type":"text","text":"Proper Input Validation"},
+		{"id":"3170fc2fb5b75846","x":-705,"y":280,"width":250,"height":60,"type":"text","text":"Give low privilege to database"},
+		{"id":"ede239a78f77ca01","x":-1260,"y":391,"width":250,"height":60,"type":"text","text":"use WAF"},
+		{"id":"f8e1e4ae6cf471bd","x":-986,"y":391,"width":250,"height":60,"type":"text","text":"Use Parameterized Query"}
+	],
+	"edges":[
+		{"id":"ee0551695eb2e3df","fromNode":"4fd6051744f2995f","fromSide":"bottom","toNode":"86cb4205d13b3f3d","toSide":"top","toEnd":"none"},
+		{"id":"c74cfed96e0ba172","fromNode":"4fd6051744f2995f","fromSide":"right","toNode":"8b7b4cee7f7bbef2","toSide":"left"},
+		{"id":"d996d1ec7e2416c1","fromNode":"8b7b4cee7f7bbef2","fromSide":"right","toNode":"dcc8ad16f59fa67b","toSide":"left"},
+		{"id":"d346bfa5882f1e65","fromNode":"dcc8ad16f59fa67b","fromSide":"bottom","toNode":"3b8f9b67c92b132a","toSide":"top"},
+		{"id":"2c37d16f96d1e68c","fromNode":"3b8f9b67c92b132a","fromSide":"bottom","toNode":"e5a4f7bcc145b208","toSide":"top"},
+		{"id":"934a137679624bea","fromNode":"e5a4f7bcc145b208","fromSide":"bottom","toNode":"4b3f4803a9fcc3df","toSide":"top"},
+		{"id":"00912b53756859d1","fromNode":"3b8f9b67c92b132a","fromSide":"bottom","toNode":"87258b1f40d2de91","toSide":"top"},
+		{"id":"f4c6119f63e911b3","fromNode":"87258b1f40d2de91","fromSide":"bottom","toNode":"4b3f4803a9fcc3df","toSide":"top"},
+		{"id":"cfda452df4603c7b","fromNode":"4b3f4803a9fcc3df","fromSide":"left","toNode":"ae0fec01905e8433","toSide":"right"},
+		{"id":"6e971abbd58b20ac","fromNode":"8f05662c1637cf08","fromSide":"right","toNode":"4fd6051744f2995f","toSide":"left","label":"Yes"},
+		{"id":"16a888fa4b50874b","fromNode":"8f05662c1637cf08","fromSide":"bottom","toNode":"1328eb18c96829ae","toSide":"top","label":"No"},
+		{"id":"d5b9aa90e049a883","fromNode":"1328eb18c96829ae","fromSide":"bottom","toNode":"e3f14e6bb8705864","toSide":"top","toEnd":"none"},
+		{"id":"b1f0b15f0957a2b3","fromNode":"e3f14e6bb8705864","fromSide":"bottom","toNode":"bb6acfbd9d5e956b","toSide":"top"},
+		{"id":"5bf17cf9b1f2fda0","fromNode":"e3f14e6bb8705864","fromSide":"bottom","toNode":"ec7dc151aa83a38e","toSide":"top"},
+		{"id":"f6ff8665099777fb","fromNode":"e3f14e6bb8705864","fromSide":"bottom","toNode":"3170fc2fb5b75846","toSide":"top"}
+	]
+}
