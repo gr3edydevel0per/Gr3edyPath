@@ -2,8 +2,8 @@ site_name: Gr3edy Devel0per Path
 
 theme:
     name: 'material'
-    palette:
     logo: Assets/site/logo.png
+    palette:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
